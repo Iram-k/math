@@ -6,7 +6,7 @@ if time>=10:
 elif time>=6 and time<10:
     ts=sal+((8/100)*sal)
     print ("Your net bonus amount is=",ts)
-elif time<6:
+elif time<6 :
     ts=sal+((5/100)*sal)
     print ("Your net bonus amount is=",ts)
 else:
